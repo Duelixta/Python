@@ -13,5 +13,10 @@ E = B * C
 F = B/C
 G = B**C
 H = B//C
-I = B%c
+I = B%C
 
+#ORDEM DE PRECEDENCIA 
+#Primeiro = Parenteses 
+#Segundo = Exponenciação
+#Terceiro = Divisão, Multiplicação, % e //
+#Quarto = Soma, Subtracao
