@@ -5,4 +5,4 @@
 import math
 num = int(input('Me de um numero'))
 raiz = math.sqrt(num)
-print('Seu numero e {}'.format(raiz))
+print('Seu numero e {}'.format(math.floor(raiz)))
