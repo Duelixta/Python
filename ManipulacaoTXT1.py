@@ -19,3 +19,15 @@ frase4 = 'Macacos unidos strong'
 print(frase4[:10:2])
 
 #Caso queira que o programa printe todo a frase, sem ter de estabelecer um numero, eh so x:, sem numero apos os dois pontos
+
+#Caso demos print, poderiamos fazer print(frase[9::20]), printariamos do 9 ate o final, pulando 20 em 20 caracteres.
+
+frase5 = 'Macaco mto foda'
+
+#Analise
+
+frase6 = 'Type stuf macaco foda'
+len(frase6) #Tamanho, quantos micro espacos precisa na memoria
+frase.count('t') #Contar quantas vezes aparece a letra t.
+frase.count('t',2,3) #Contar quantas vezes aparece a letra t, de uma posição até a outra.
+frase.find('deo') #Quantas vezes ele encontrou a parte DEO, mostrando onde ele começa
