@@ -31,3 +31,15 @@ len(frase6) #Tamanho, quantos micro espacos precisa na memoria
 frase.count('t') #Contar quantas vezes aparece a letra t.
 frase.count('t',2,3) #Contar quantas vezes aparece a letra t, de uma posição até a outra.
 frase.find('deo') #Quantas vezes ele encontrou a parte DEO, mostrando onde ele começa
+frase5.find('Joana') #Como não temos Joana na frase5, ele mostrará o valor -1
+'Curso' in frase5 #Isso vai te responder existe CURSO na variavel FRASE5, com SIM OU NAO, o FIND acha a posição do mesmo.
+frase5.replace('Macaco','Primata') #Troca uma palavra da string por outra
+frase5.upper() #Deixa maisculo
+frase5.lower() #Deixa minusculo
+frase5.capitalize() #Joga tudo para minusculo, somente a primeira letra fica maiuscula
+frase5.title() #Analisa cada palavra na string,baseada nos espaços, e capitaliza todas as palavras nela
+frase5.strip() #Remove espaços inuteis
+frase5.rstrip() #Ele remove somente os da DIREITA (RIGHT)
+frase5.lstrip() #Remove somente os da ESQUERDA (LEFT)
+frase.split() #Onde tiver espaços, ele cria uma divisão, indexando novamente as palavras baseadas no espaço
+'-'.join(frase) #Gera uma string unica, juntando a string com -
